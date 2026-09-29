@@ -70,6 +70,8 @@ Temel katmanlar:
 
 AuthCore aktif olarak geliştirilen bir backend öğrenme projesidir. Proje ilerledikçe yeni özellikler, testler ve geliştirmeler eklenecektir.
 
+---
+
 # AuthCore
 
 AuthCore is a backend REST API project built around authentication, authorization, and role-based access control (RBAC).
