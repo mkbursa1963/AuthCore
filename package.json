@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/mkbursa1963/AuthCore/issues"
   },
-  "homepage": "https://github.com/mkbursa1963/AuthCore#readme"
+  "homepage": "https://github.com/mkbursa1963/AuthCore#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
