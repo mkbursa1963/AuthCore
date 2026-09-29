@@ -1,5 +1,4 @@
 # AuthCore
-
 ---
 
 ## 🇹🇷 Türkçe
