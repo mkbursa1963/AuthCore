@@ -1,12 +1,14 @@
-Türkish description
-
 # AuthCore
+
+---
+
+## 🇹🇷 Türkçe
 
 AuthCore, kimlik doğrulama (Authentication), yetkilendirme (Authorization) ve rol tabanlı erişim kontrolü (RBAC) üzerine geliştirilmiş olan bir backend REST API projesidir.
 
 Proje, modern authentication ve authorization sistemlerinin nasıl çalıştığını uygulamalı olarak öğrenmek ve backend geliştirme becerilerini geliştirmek amacıyla oluşturulmaktadır.
 
-## Özellikler
+### Özellikler
 
 * Kullanıcı kayıt ve giriş sistemi
 * Güvenli parola hashleme
@@ -19,7 +21,7 @@ Proje, modern authentication ve authorization sistemlerinin nasıl çalıştığ
 * RESTful API mimarisi
 * API doğrulama ve hata yönetimi
 
-## Kullanıcı Rolleri
+### Kullanıcı Rolleri
 
 AuthCore farklı yetki seviyelerine sahip kullanıcı rollerini destekleyecektir:
 
@@ -27,7 +29,7 @@ AuthCore farklı yetki seviyelerine sahip kullanıcı rollerini destekleyecektir
 * **MODERATOR** — Ek yönetim yetkileri
 * **ADMIN** — Yönetimsel işlemler için tam yetki
 
-## Teknolojiler
+### Teknolojiler
 
 * **Node.js**
 * **Express.js**
@@ -36,7 +38,7 @@ AuthCore farklı yetki seviyelerine sahip kullanıcı rollerini destekleyecektir
 * **bcrypt**
 * **Prisma**
 
-## Projenin Amaçları
+### Projenin Amaçları
 
 AuthCore geliştirilirken aşağıdaki backend konularında pratik deneyim kazanılması hedeflenmektedir:
 
@@ -52,7 +54,7 @@ AuthCore geliştirilirken aşağıdaki backend konularında pratik deneyim kazan
 * Backend proje yapısı
 * Güvenli API geliştirme
 
-## Proje Yapısı
+### Proje Yapısı
 
 Proje, backend kodunun farklı sorumluluklara ayrıldığı bir mimari kullanacak şekilde geliştirilecektir.
 
@@ -66,22 +68,25 @@ Temel katmanlar:
 * Authentication
 * Authorization
 
-## Proje Durumu
+### Proje Durumu
 
 🚧 **Geliştirme Aşamasında**
 
 AuthCore aktif olarak geliştirilen bir backend öğrenme projesidir. Proje ilerledikçe yeni özellikler, testler ve geliştirmeler eklenecektir.
 
-<hr>
-English description
+<br>
 
-# AuthCore
+<hr>
+
+<br>
+
+## 🇬🇧 English
 
 AuthCore is a backend REST API project built around authentication, authorization, and role-based access control (RBAC).
 
 The project is being developed as a practical backend learning project to understand how modern authentication and authorization systems work from the ground up.
 
-## Features
+### Features
 
 * User registration and login
 * Secure password hashing
@@ -94,7 +99,7 @@ The project is being developed as a practical backend learning project to unders
 * RESTful API architecture
 * API validation and error handling
 
-## User Roles
+### User Roles
 
 AuthCore will support different levels of access:
 
@@ -102,7 +107,7 @@ AuthCore will support different levels of access:
 * **MODERATOR** — Additional management permissions
 * **ADMIN** — Full administrative access
 
-## Tech Stack
+### Tech Stack
 
 * **Node.js**
 * **Express.js**
@@ -111,7 +116,7 @@ AuthCore will support different levels of access:
 * **bcrypt**
 * **Prisma**
 
-## Project Goals
+### Project Goals
 
 The main goal of AuthCore is to gain hands-on experience with:
 
@@ -125,8 +130,9 @@ The main goal of AuthCore is to gain hands-on experience with:
 * PostgreSQL relationships
 * API error handling
 * Backend project structure
+* Secure API development
 
-## Project Structure
+### Project Structure
 
 The project will be organized around a clean backend architecture with separate layers for:
 
@@ -137,8 +143,8 @@ The project will be organized around a clean backend architecture with separate 
 * Database
 * Authentication and authorization logic
 
-## Status
+### Status
 
 🚧 **In Development**
 
-AuthCore is actively being developed as a learning project. New features and improvements will be added as the project progresses.
+AuthCore is actively being developed as a learning project. New features, tests, and improvements will be added as the project progresses.
