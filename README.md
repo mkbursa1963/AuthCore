@@ -1,6 +1,5 @@
 # AuthCore
 ---
-
 ## 🇹🇷 Türkçe
 
 AuthCore, kimlik doğrulama (Authentication), yetkilendirme (Authorization) ve rol tabanlı erişim kontrolü (RBAC) üzerine geliştirilmiş olan bir backend REST API projesidir.
