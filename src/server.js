@@ -13,6 +13,22 @@ app.use((req, res, next) => { //Middleware, istemciden gelen isteği işlemek i�
     next();
 });
 
+app.use((req, res, next) => { 
+    consol.log("1. Middleware çalıştı");
+    next();
+});
+
+app.use((req,res,next) => {
+    console.log("2. Middleware çalıştı");
+    next();
+});
+
+app.get("/api/health", (req, res) => { 
+    res.json({
+        status:"ok"
+    });
+});
+
 app.use(express.json()); //Middleware, istemciden gelen JSON verilerini okuyabilmesi ve işlemesi için kullanılır.
 
 app.get("/api/health", (req, res) => {//Endpoint, istemcinin API'ye yaptığı isteğin URL'sidir vasa status çıktısını verir.
