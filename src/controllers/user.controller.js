@@ -1,9 +1,9 @@
-const createUser = (req, res) => {
-const { name, email } = req.body;
-const createUserService = require("../services/user.service");
+const createUser = async(req, res) => {
+const { name, email , password } = req.body;
+const createUserService = require("../services/user.service"); 
     
 try {
-    const user = createUserService(name, email);
+    const user = await createUserService(name, email, password);
     res.status(201).json({
         message: "Kullanıcı başarıyla oluşturuldu",
         user: user

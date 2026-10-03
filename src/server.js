@@ -1,7 +1,21 @@
 const express = require('express');
 const app = express();
+
 const loggermiddleware = require('./middleware/logger.middleware');
 const apiKeyMiddleware = require('./middleware/apiKey.middleware');
+
+const { PrismaMssql } = require('@prisma/adapter-mssql');
+
+const adapter = new PrismaMssql({
+    server: "localhost",
+    port: 1433,
+    database: "AuthCore",
+    options: {
+        trustedConnection: true,
+        trustServerCertificate: true
+    },
+    driver: "msnodesqlv8"
+});
 
 // JSON verilerini okuyabilmek için
 app.use(express.json());
@@ -9,7 +23,7 @@ app.use(express.json());
 // Logger middleware
 app.use(loggermiddleware);
 
-//apiKey middleware
+// API key middleware
 app.use(apiKeyMiddleware);
 
 // User routes
